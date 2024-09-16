@@ -1,0 +1,25 @@
+@import 'vue-toastification/dist/index.css';
+
+.Vue-Toastification__container {
+	padding: 1rem !important;
+}
+
+.Vue-Toastification__toast {
+	padding: 0 !important;
+	box-shadow: none !important;
+}
+
+.Vue-Toastification__toast--default,
+.Vue-Toastification__toast--success,
+.Vue-Toastification__toast--warning,
+.Vue-Toastification__toast--info,
+.Vue-Toastification__toast--error {
+   background-color: transparent !important;
+} 
+
+
+.Vue-Toastification__progress-bar {
+	background-color: #dcdcdc !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
